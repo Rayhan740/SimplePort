@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakibul Islam Rayhan</title>
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Font awesome 5 cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!--Jquery cdn-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+
+    <!--JQuery circle cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js" integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      
+  
+
+  </head>
+
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">Portfo<span>lio.</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn"><i class="fas fa-bars"></i></div>
+      </div>
+    </nav>
+
+    <!-- Home section starts from here-->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Sakibul Islam Rayhan</div>
+          <div class="text-3">And I am a <span id="auto_text">YouTuber</span></div>
+          <a href="#" id="myBtn">Hire me</a>
+          <!--Modal starts from here-->
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Hi!</h2>
+              </div>
+              <div class="modal-body">
+                <p>Go to the contact section to send message</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Have a good day <span style="color:yellow; font-size: 30px;"> ☺ </span></h3>
+              </div>
+            </div>
+          </div>
+          <!--Modal ends  here-->
+        </div>
+      </div>
+    </section>
+
+    <!-- About section starts from here -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img
+              src="images/240743514_807537476528713_454376240947906610_n (2).jpg"
+              alt=""
+            />
+          </div>
+          <div class="column right">
+            <div class="text">
+              I'm Sakibul Islam Rayhan and I'm an
+              <span>Electrical and Electronic Engineering Student</span> </div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Distinctio expedita molestias in, fugiat rem pariatur? Minus
+                laboriosam reprehenderit eligendi quisquam vel illum ut
+                accusantium deleniti deserunt? Iure reprehenderit laboriosam nam
+                velit nostrum maiores at saepe. Veritatis qui ad sequi fugit
+                cumque perspiciatis accusamus, sed maxime at repellendus soluta
+                nobis totam et reprehenderit expedita, quae, rerum quos vel sint
+                consectetur. Provident.
+              </p>
+              <a href="#">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Servics section-->
+    <section class="services" id="services">
+      <div class="max-width">
+        <h2 class="title">My services</h2>
+        <div class="serv-content">
+          <div class="card">
+              <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <div class="text">Web Design</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas natus dolores, aliquid harum cum pariatur.</p>
+              </div>
+          </div>
+          
+             
+          
+          <div class="card">
+              <div class="box">
+                <i class="fas fa-chart-line"></i>
+                <div class="text">Advertising</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas natus dolores, aliquid harum cum pariatur.</p>
+              </div>
+          </div>
+          
+          <div class="card">
+              <div class="box">
+                <i class="fas fa-code"></i>
+                <div class="text">Front End Development</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas natus dolores, aliquid harum cum pariatur.</p>
+              </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Skills section starts from here -->
+      <section class="skills" id="skills">
+        <div class="max-width">
+          <h2 class="title">My skills</h2>
+          <div class="skill-content">
+             <div class="wrapper">
+              <div class="progress_card">
+                <div class="circle">
+                  <div class="bar"></div>
+                  <div class="box"><span style="left:45px; top: -140px"></span></div>
+                </div>
+                <div class="text"  style=" background: linear-gradient(to bottom, #ff0000 0%, #ff9900 100%);-webkit-background-clip: text;
+                -webkit-text-fill-color: transparent; font-size: 20px;font-weight: 600">HTML & CSS</div>
+              </div>
+              <div class="progress_card js">
+                <div class="circle">
+                  <div class="bar"></div>
+                  <div class="box"><span style="left:45px; top: -140px"></span></div>
+                </div>
+                <div class="text" style="background: linear-gradient(to bottom, #3333ff 0%, #ff0000 100%);-webkit-background-clip: text;
+                -webkit-text-fill-color: transparent; font-size: 20px;font-weight: 600">JS & Boostrap 4</div>
+              </div>
+              <div class="progress_card ps">
+                <div class="circle">
+                  <div class="bar"></div>
+                  <div class="box"><span style="left:45px; top: -140px"></span></div>
+                </div>
+                <div class="text" style=" background: linear-gradient(to bottom, #33ccff 0%, #00ff00 100%);-webkit-background-clip: text;
+                -webkit-text-fill-color: transparent; font-size: 20px; font-weight: 600">Ps & JQuery plugins</div>
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonial section starts from here-->
+        <section class="reviews" id="reviews">
+        <div class="max-width">
+            <h2 class="title">Reviews</h2>
+            <div class="review-container">
+              <div id="demo" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="carousel-caption">
+                              <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code, I don't know what will.This was the very best explanation of frameworks for brginners that I've ever seen. </p> <img src="images/ben-parker-OhKElOkQ3RE-unsplash.jpg">
+                              <div id="image-caption">Nick Doe</div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="carousel-caption">
+                              <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code, I don't know what will.This was the very best explanation of frameworks for brginners that I've ever seen.</p> <img src="images/ian-dooley-d1UPkiFd04A-unsplash.jpg" class="img-fluid">
+                              <div id="image-caption">Cromption Greves</div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="carousel-caption">
+                              <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code, I don't know what will.This was the very best explanation of frameworks for brginners that I've ever seen.</p> <img src="images/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" class="img-fluid">
+                              <div id="image-caption">Harry Mon</div>
+                          </div>
+                      </div>
+                  </div> <a class="carousel-control-prev" href="#demo" data-slide="prev"> <i class='fas fa-arrow-left'></i> </a> <a class="carousel-control-next" href="#demo" data-slide="next"> <i class='fas fa-arrow-right'></i> </a>
+              </div>
+          </div>
+           
+        </div>
+        </section>
+              
+
+        <!--Contact sections starts from here -->
+       <section class="contact" id="contact">
+         <div class="max-width">
+           <h2 class="title">Contact me</h2>
+          <div class="contact-content">
+            <div class="column left">
+              <div class="text">Get in Touch</div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil atque qui, dolorum optio quae placeat asperiores vitae temporibus deleniti?</p>
+              <div class="icons">
+                <div class="row">
+                  <i class="fas fa-user"></i>
+                  <div class="info">
+                    <div class="head">Name</div>
+                    <div class="sub-title">Sakibul Islam Rayhan</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="info">
+                    <div class="head">Address</div>
+                    <div class="sub-title">Khulna , Bangladesh</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fas fa-envelope"></i>
+                  <div class="info">
+                    <div class="head">Email</div>
+                    <div class="sub-title">abc@gmail.com</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="column right">
+              <div class="text">Message me</div>
+              <form action="#" method = "post" id="my-form">
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" placeholder="Name" required>
+                  </div>
+                  <div class="field email">
+                    <input type="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="field textarea">
+                 <textarea cols="30" rows="10" placeholder="Describe project.." required></textarea>                  
+                </div>
+                <div class="button">
+                  <button type="submit">Send message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+         </div>
+       </section>
+
+       <!--Footer section starts from here -->
+       <footer>
+         <span>
+           Created by <a href="#">Sakibul Islam Rayhan</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.
+         </span>
+       </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
